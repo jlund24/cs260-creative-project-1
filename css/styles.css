@@ -1,0 +1,37 @@
+.time {
+    text-align: center;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.calendar-list {
+    max-width: 100%;
+}
+
+.calendar-item-info span{
+    margin-right: 10px;
+}
+
+.calendar-item-info-time {
+    font-weight: bold;
+}
+
+.calendar-item-info-title {
+    font-style: italic;
+}
+
+.calendar-item-info-calendar {
+    margin-left: 30px;
+    margin-right: 0px !important;
+}
+
+.half-container {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
