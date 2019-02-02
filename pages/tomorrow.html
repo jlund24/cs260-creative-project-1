@@ -2,32 +2,31 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css" />
-    <title>GTD</title>
+    <title>Flow</title>
 </head>
 
-<body>
+<body >
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">GTD</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="pages/about.html">About</a>
-                <a class="nav-item nav-link" href="pages/portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="pages/reviews.html">Reviews</a>
-            </div>
-            </div>
-    </nav>
+            <a class="navbar-brand" href="../index.html"><span class="logo">flow</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="today.html">Today</a>
+                    <a class="nav-item nav-link" href="review.html">Review</a>
+                    <a class="nav-item nav-link active" href="tomorrow.html">Plan</a>
+                
+        </nav>
 
-    <div>
-        <h1 class="time">Plan</div>
-        <h2>Decide what you want to accomplish tomorrow</h2>
-        <div class="four-day-calendar">
+    <div class="plan-image">
+        <h1 class="page-title my-text">Plan what's next</h1>
+        <div class="plan-flex">
+
             <div class="calendar-day">
-                    <h1>Tomorrow</h1>
+                    <h2 class="my-text">Tomorrow</h2>
                     <div class="card">
                     <div class="card-header d-flex justify-content-between align-items-center calendar-item-info">
                             <span class="calendar-item-info-time-header">
@@ -41,8 +40,6 @@
                                     </span>
                           </div>
                     <ul class="list-group calendar-list">
-                        <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
-                                <span class=" calendar-item-info-time">6:00 AM</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
                                 <span class=" calendar-item-info-time">7:00 AM</span>
@@ -55,12 +52,16 @@
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
                                 <span class=" calendar-item-info-time">10:00 AM</span>
+                                <span class=" calendar-item-info-title">STDEV 109</span>
+                                <span class="badge badge-danger badge-pill calendar-item-info-calendar">School</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
                                 <span class=" calendar-item-info-time">11:00 AM</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
                                 <span class=" calendar-item-info-time">12:00 PM</span>
+                                <span class=" calendar-item-info-title">TA Meeting</span>
+                                <span class="badge badge-secondary badge-pill calendar-item-info-calendar">Work</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
                                 <span class=" calendar-item-info-time">1:00 PM</span>
@@ -69,9 +70,13 @@
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
                                 <span class=" calendar-item-info-time">2:00 PM</span>
+                                <span class=" calendar-item-info-title">TA Hours</span>
+                                <span class="badge badge-secondary badge-pill calendar-item-info-calendar">Work</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
                                 <span class=" calendar-item-info-time">3:00 PM</span>
+                                <span class=" calendar-item-info-title">TA Hours</span>
+                                <span class="badge badge-secondary badge-pill calendar-item-info-calendar">Work</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
                                 <span class=" calendar-item-info-time">4:00 PM</span>
@@ -84,6 +89,8 @@
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
                                 <span class=" calendar-item-info-time">7:00 PM</span>
+                                <span class=" calendar-item-info-title">FHE</span>
+                                <span class="badge badge-primary badge-pill calendar-item-info-calendar">Home</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
                                 <span class=" calendar-item-info-time">8:00 PM</span>
@@ -97,23 +104,82 @@
                         <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
                                 <span class=" calendar-item-info-time">11:00 PM</span>
                         </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
-                          <span class=" calendar-item-info-time">7:30 - 9:00 PM</span>
-                          <span class=" calendar-item-info-title text-truncate">Wonderland</span>
-                          <span class="badge badge-primary badge-pill calendar-item-info-calendar">Home</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center calendar-item-info">
-                            <span class=" calendar-item-info-time">9:30 PM</span>
-                            <span class=" calendar-item-info-title">Get ready for bed</span>
-                            <span class="badge badge-primary badge-pill calendar-item-info-calendar">Home</span>
-                          </li>
                           
                       </ul>
                     </div>
             </div>
             
             
+        <div class="habit-and-task-flex">
+        <div class="habit-and-task-box">
+                <h2 class="my-text">What habits will you focus on?</h2>
+                <ul class="list-group">
+                        
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Add a habit" aria-label="Add a habit" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                        <button class="btn btn-primary" type="button">Add</button>
+                                        </div>
+                                    </div>
+                                </li> 
+                              
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Drink 3 water bottles
+                          <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                            <button type="button" class="btn btn-secondary btn-sm">Edit</button>
+                            <button type="button" class="btn btn-danger btn-sm">Remove</button>
+                          </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Floss
+                          <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                                <button type="button" class="btn btn-secondary btn-sm">Edit</button>
+                                <button type="button" class="btn btn-danger btn-sm">Remove</button>
+                              </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Read scriptures
+                          <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                                <button type="button" class="btn btn-secondary btn-sm">Edit</button>
+                                <button type="button" class="btn btn-danger btn-sm">Remove</button>
+                              </div>
+                        </li>
+                      </ul>
         </div>
+        <div class="habit-and-task-box">
+                <h2 class="my-text">What tasks will you complete?</h2>
+                <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="Add a task" aria-label="Add a task" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">Add</button>
+                                            </div>
+                                        </div>
+                                    </li> 
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Grade 356 Wireframes
+                          <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                                <button type="button" class="btn btn-secondary btn-sm">Edit</button>
+                                <button type="button" class="btn btn-danger btn-sm">Remove</button>
+                              </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Interpreter Lab 1
+                          <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                                <button type="button" class="btn btn-secondary btn-sm">Edit</button>
+                                <button type="button" class="btn btn-danger btn-sm">Remove</button>
+                              </div>
+                        </li>
+                      </ul>
+        </div>
+        <div class="next-button">
+                <a class="btn btn-success btn-lg btn-block" href="today.html">Finish</a>
+        </div>
+    </div>
+</div>
+    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

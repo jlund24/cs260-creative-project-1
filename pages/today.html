@@ -2,38 +2,36 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css" />
-    <title>GTD</title>
+    <title>Flow</title>
 </head>
 
-<body>
+<body class="today-image">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">GTD</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="pages/about.html">Today</a>
-                <a class="nav-item nav-link" href="pages/portfolio.html">Tomorrow</a>
-                <a class="nav-item nav-link" href="pages/reviews.html">Settings</a>
-            </div>
-            </div>
-    </nav>
-
-    <div>
-        <h1 class="time">9:15 PM</div>
-        <div class="flex-container">
+            <a class="navbar-brand" href="../index.html"><span class="logo">flow</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="today.html">Today</a>
+                    <a class="nav-item nav-link" href="review.html">Review</a>
+                    <a class="nav-item nav-link" href="tomorrow.html">Plan</a>
+                
+        </nav>
+    
+        <h1 class="page-title my-text" id="time">9:15 PM</h1>
+        <div class="flex-container today">
             <div class="half-container">
-                <h1>Weather</h1>
+                <h2 class="my-text">Weather</h2>
                 <a class="weatherwidget-io" href="https://forecast7.com/en/40d23n111d66/provo/?unit=us" data-label_1="PROVO" >PROVO</a>
                 <script>
                 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
                 </script>
             </div>
             <div class="half-container">
-                <h1>Today's Events</h1>
+                    <h2 class="my-text">Today's Events</h2>
                 <div class="card">
                 <div class="card-header d-flex justify-content-between align-items-center calendar-item-info">
                         <span class="calendar-item-info-time-header">
@@ -67,9 +65,9 @@
                 </div>
             </div>
         </div>
-        <div class="flex-container">
+        <div class="flex-container today">
             <div class="half-container">
-                <h1>Habits</h1>
+                <h2 class="my-text">Habits</h2>
                 <ul class="list-group">
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                           Drink 3 water bottles
@@ -90,7 +88,7 @@
                       </ul>
             </div>
             <div class="half-container">
-                <h1>Tasks</h1>
+                    <h2 class="my-text">Tasks</h2>
                 <ul class="list-group">
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                           Creative Project #1

@@ -1,3 +1,11 @@
+.logo {
+    font-family: 'Pacifico', cursive;
+}
+
+.my-text {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .time {
     text-align: center;
     width: 100%;
@@ -50,18 +58,181 @@
     width: 45%;
     margin-left: auto;
     margin-right: auto;
+    background: rgba(255, 255, 255, 0.75); /* Black see-through */
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.four-day-calendar {
+/* .four-day-calendar {
     display:flex;
     flex-flow: column nowrap;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .calendar-day {
-    width: 50%;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.75); /* Black see-through */
+    border-radius: 10px;
+    padding: 10px;
 }
 
+.plan-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
 
+.habit-and-task-flex {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.75); /* Black see-through */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.habit-and-task-box {
+    height: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.next-button {
+    height: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+* {
+    box-sizing: border-box;
+  }
+
+  body, html {
+    height: 100%;
+    background-color: #E0EAEC;
+    /* width: 100%; */
+  }
+
+.hero-image {
+    /* The image used */
+    background-image: url("../images/path.jpg");
+  
+    /* Add the blur effect */
+    /* filter: blur(2px);
+    -webkit-filter: blur(1px); */
+  
+    /* Full height */
+    height: 100%; 
+
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .today-image {
+      background-image: url("../images/city.jpg");
+      /* filter: blur(5px);
+  -webkit-filter: blur(5px); */
+  height: 100%; 
+
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .review-image {
+    background-image: url("../images/night.jpg");
+    
+    height: 100%; 
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .plan-image {
+        background-image: url("../images/sunrise.jpg");
+        
+        /* height: 100%;  */
+    
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }    
+  
+  /* Position text in the middle of the page/image */
+  .hero-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through*/
+    border-radius: 20px;
+    color: white;
+    
+    /* font-weight: bold; */
+    font-family: 'Fjalla One', sans-serif;
+    
+    /* border: 3px solid #f1f1f1; */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 40%;
+    
+    padding: 20px;
+    text-align: center;
+  }
+
+  #title {
+      font-size: 60pt;
+      margin-bottom: 40px;
+  }
+
+  #subtitle-1 {
+      font-size: 22pt;
+      margin-bottom: 0px;
+  }
+
+  #subtitle-2 {
+      margin-top: 0px;
+      font-size: 22pt;
+  }
+
+.page-title {
+    text-align: center;
+    font-size: 56pt;
+    padding-top: 20px;
+}
+
+.page-subtitle {
+    font-size: 28pt;
+}
+
+.today {
+    padding-top: 50px;
+}
+
+.next-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#review-title {
+    color: #E0EAEC;
+}
