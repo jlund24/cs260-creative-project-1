@@ -14,42 +14,54 @@
 }
 
 .calendar-item-info-time {
-    font-weight: bold;
-    width: 30%
+    /* font-weight: bold; */
+    width: 32%
 }
 
 .calendar-item-info-title {
     font-style: italic;
-    width: 55%;
+    width: 48%;
 }
 
 .calendar-item-info-calendar {
     /* margin-left: 30px;
     margin-right: 0px !important; */
-    width: 15%;
+    width: 20%;
 }
 
 .calendar-item-info-time-header {
     font-weight: bold;
-    width: 30%
+    width: 32%
 }
 
 .calendar-item-info-title-header {
     font-weight: bold !important;
-    width: 55%;
+    width: 48%;
 }
 
 .calendar-item-info-calendar-header {
     /* margin-left: 30px;
     margin-right: 0px !important; */
     font-weight: bold;
-    width: 15%;
+    width: 20%;
 }
 
 .half-container {
     width: 45%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.four-day-calendar {
+    display:flex;
+    flex-flow: column nowrap;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calendar-day {
+    width: 50%;
 }
 
 
