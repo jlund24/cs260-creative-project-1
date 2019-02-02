@@ -6,32 +6,50 @@
 .flex-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .calendar-list {
     max-width: 100%;
 }
 
-.calendar-item-info span{
-    margin-right: 10px;
-}
-
 .calendar-item-info-time {
     font-weight: bold;
+    width: 30%
 }
 
 .calendar-item-info-title {
     font-style: italic;
+    width: 55%;
 }
 
 .calendar-item-info-calendar {
-    margin-left: 30px;
-    margin-right: 0px !important;
+    /* margin-left: 30px;
+    margin-right: 0px !important; */
+    width: 15%;
+}
+
+.calendar-item-info-time-header {
+    font-weight: bold;
+    width: 30%
+}
+
+.calendar-item-info-title-header {
+    font-weight: bold !important;
+    width: 55%;
+}
+
+.calendar-item-info-calendar-header {
+    /* margin-left: 30px;
+    margin-right: 0px !important; */
+    font-weight: bold;
+    width: 15%;
 }
 
 .half-container {
-    width: 40%;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
 }
+
+
